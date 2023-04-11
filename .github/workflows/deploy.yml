@@ -34,11 +34,3 @@ jobs:
         with:
           branch: gh-pages
           folder: build
-
-      - name: Commit style.css to main branch
-        run: |
-          git config user.email 95504439+lethiferal@users.noreply.github.com
-          git config user.name lethiferal
-          git add static/style.css
-          git commit -m "Update style.css"
-          git push --set-upstream origin main
