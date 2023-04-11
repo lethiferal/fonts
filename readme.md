@@ -1,6 +1,6 @@
 <h1 align="center">LIBRE FONTS</h1>
 
-<h4 align="center">This library is intended to be a resource for designers, developers, and creative professionals who are looking for high-quality, professionally designed fonts that are free for both personal and commercial use, modify, and distribute.</h4>
+<h4 align="center">This library is intended to be a resource for designers, developers, and creative professionals who are looking for high-quality, professionally designed fonts that are free for both personal and commercial use, modify, and distribute. Currently only supports .otf and .ttf fonts.</h4>
 <p align="center">
 	<a href="https://github.com/lethiferal/fonts/stargazers" target="_new"><img src="https://img.shields.io/github/stars/lethiferal/fonts" alt="GitHub stars"></a>
 	<a href="https://github.com/lethiferal/fonts/issues" target="_new"><img src="https://img.shields.io/github/issues/lethiferal/fonts" alt="GitHub issues"></a>
