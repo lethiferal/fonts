@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Libre Fonts
+    </title>
+    <meta name="title" content="Libre Fonts">
+    <meta name="description" content="{{ fonts|length }} free to use libre fonts for event poster, brand imagery, quotes, titles, magazine headings, web layouts, advertising, merchandise, and more.">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="1 days">
+    <meta name="author" content="Lethiferal">
+    <meta name="keywords" content="font,fonts,libre,librefonts,typeface,css,typography,truetype,opentype,ttf,otf,fontface">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"/>
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+    <style>
+      body {
+        background-color: #111;
+        color: #eee;
+        font-family: 'Helvetica Neue', sans-serif;
+        margin: 0;
+      }
+      .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .title {
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 30px;
+        text-shadow: 0 0 20px rgba(255,255,255,0.2);
+      }
+      .description {
+        font-size: 1rem;
+        letter-spacing: .2em;
+        text-align: center;
+        margin-bottom: 30px;
+        color: #bbb;
+      }
+      .fonts-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+      }
+      .font-card {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0,0,0,0);
+        padding: 20px;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        transition: transform 0.2s ease-in-out;
+        backdrop-filter: blur(10px);
+      }
+      .font-card:hover {
+        transform: translateY(-5px);
+      }
+      .font-name {
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+        cursor: default;
+      }
+      .font-preview {
+        font-size: 2rem;
+        margin: 10px 0;
+        color: #bbb;
+        cursor: default;
+        flex-grow: 1;
+      }
+      .font-numbers {
+        font-size: 1.5rem;
+        margin: 10px 0;
+        color: #bbb;
+        cursor: default;
+        flex-grow: 1;
+      }
+      .download-button {
+        background-color: #eee;
+        color: #333;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+      }
+      .download-button:hover {
+        background-color: #ccc;
+      }
+    </style>
+    <script>
+      function downloadFont(filename) {
+        const link = document.createElement('a');
+        link.href = "https://github.com/lethiferal/fonts/raw/main/fonts/" + filename;
+        link.download = filename;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title" style="font-family:'Superglue', sans-serif;">Font Repo
+      </h1>
+      <h1 class="description" style="font-family:'Tokeely Brookings', sans-serif;">- {{ fonts|length }} libre fonts available for free download - 
+      </h1>
+      <div class="fonts-container">
+        {% for font in fonts %}
+        <div class="font-card" loading="lazy">
+          <h2 class="font-name" style="font-family:'Understock', sans-serif;">{{ font.split('.')[0] }}
+          </h2>
+          <p class="font-preview" style="font-family:'{{ font.split('.')[0] }}', sans-serif;">Quick brown fox jumps over the lazy dog
+          </p>
+          <p class="font-numbers" style="font-family:'{{ font.split('.')[0] }}', sans-serif;">0123456789
+          </p>
+          <button class="download-button" onclick="downloadFont('{{ font }}')">
+            <span class="material-symbols-rounded">
+              download
+            </span>
+          </button>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+.config/
+.upm/
+venv/
+build/
+__pycache__/
+requirements.txt
+poetry.lock
+.*~

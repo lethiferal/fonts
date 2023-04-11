@@ -1,0 +1,44 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install poetry
+          poetry export --format requirements.txt --output requirements.txt --without-hashes
+          pip install -r requirements.txt
+
+
+      - name: Generate build
+        run: python main.py -q
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages
+          folder: build
+
+      - name: Commit style.css to main branch
+        run: |
+          git config user.email 95504439+lethiferal@users.noreply.github.com
+          git config user.name lethiferal
+          git add static/style.css
+          git commit -m "Update style.css"
+          git push
