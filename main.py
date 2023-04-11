@@ -41,7 +41,7 @@ def generate_stylesheet():
             font_format = 'opentype' if font_ext == 'otf' else 'truetype'
             f.write('@font-face {\n')
             f.write(f'\tfont-family: "{font_name}";\n')
-            f.write(f'\tsrc: url("/fonts/{font}") format("{font_format}");\n')
+            f.write(f'\tsrc: url("../fonts/{font}") format("{font_format}");\n')
             f.write('}\n')
 
 
