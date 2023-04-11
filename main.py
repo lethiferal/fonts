@@ -62,6 +62,6 @@ def index():
 if __name__ == '__main__':
     generate_stylesheet()
     freezer.freeze()
-    shutil.copytree('fonts', 'build/static/fonts', dirs_exist_ok=True)
+    shutil.copytree('fonts', 'build/fonts', dirs_exist_ok=True)
     print("Build Complete.")
     
