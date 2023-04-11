@@ -27,15 +27,6 @@ jobs:
 
       - name: Generate build
         run: python main.py -q
-        
-      - name: Commit style.css to main branch
-        if: startsWith(github.event.head_commit.modified[0], 'fonts/')
-        run: |
-          git config user.email 95504439+lethiferal@users.noreply.github.com
-          git config user.name lethiferal
-          git add static/style.css
-          git commit -m "Update style.css"
-          git push --set-upstream origin main
           
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
