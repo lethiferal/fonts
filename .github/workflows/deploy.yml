@@ -41,4 +41,4 @@ jobs:
           git config user.name lethiferal
           git add static/style.css
           git commit -m "Update style.css"
-          git push
+          git push --set-upstream origin main
