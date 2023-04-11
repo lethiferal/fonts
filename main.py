@@ -41,7 +41,7 @@ def generate_stylesheet():
             font_format = 'opentype' if font_ext == 'otf' else 'truetype'
             f.write('@font-face {\n')
             f.write(f'\tfont-family: "{font_name}";\n')
-            f.write(f'\tsrc: url("./fonts/{font}") format("{font_format}");\n')
+            f.write(f'\tsrc: url("../fonts/{font}") format("{font_format}");\n')
             f.write('}\n')
 
 
@@ -63,6 +63,5 @@ if __name__ == '__main__':
     generate_stylesheet()
     freezer.freeze()
     shutil.copytree('fonts', 'build/fonts', dirs_exist_ok=True)
-    shutil.copytree('build/static/style.css', 'build/style.css', dirs_exist_ok=True)
     print("Build Complete.")
     
