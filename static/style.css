@@ -323,6 +323,10 @@
 	src: url("../fonts/Marvel.ttf") format("truetype");
 }
 @font-face {
+	font-family: "Vladimir";
+	src: url("../fonts/Vladimir.ttf") format("truetype");
+}
+@font-face {
 	font-family: "Mister Pixel Tools";
 	src: url("../fonts/Mister Pixel Tools.otf") format("opentype");
 }
@@ -543,6 +547,10 @@
 	src: url("../fonts/Aerial Banner.ttf") format("truetype");
 }
 @font-face {
+	font-family: "Redfive";
+	src: url("../fonts/Redfive.ttf") format("truetype");
+}
+@font-face {
 	font-family: "No Clocks";
 	src: url("../fonts/No Clocks.otf") format("opentype");
 }
@@ -577,6 +585,10 @@
 @font-face {
 	font-family: "Loja";
 	src: url("../fonts/Loja.otf") format("opentype");
+}
+@font-face {
+	font-family: "Tycho";
+	src: url("../fonts/Tycho.ttf") format("truetype");
 }
 @font-face {
 	font-family: "Asul";
