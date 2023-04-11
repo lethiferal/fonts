@@ -1,0 +1,860 @@
+@font-face {
+	font-family: "Horsepower";
+	src: url("/fonts/Horsepower.otf") format("opentype");
+}
+@font-face {
+	font-family: "Faulmann";
+	src: url("/fonts/Faulmann.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Handwritten Madness";
+	src: url("/fonts/Handwritten Madness.otf") format("opentype");
+}
+@font-face {
+	font-family: "Suboleya";
+	src: url("/fonts/Suboleya.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Gila";
+	src: url("/fonts/Gila.otf") format("opentype");
+}
+@font-face {
+	font-family: "Eirian";
+	src: url("/fonts/Eirian.ttf") format("truetype");
+}
+@font-face {
+	font-family: "DO Futuristic";
+	src: url("/fonts/DO Futuristic.ttf") format("truetype");
+}
+@font-face {
+	font-family: "LM mono";
+	src: url("/fonts/LM mono.otf") format("opentype");
+}
+@font-face {
+	font-family: "Treeroot";
+	src: url("/fonts/Treeroot.otf") format("opentype");
+}
+@font-face {
+	font-family: "CAT DyFa";
+	src: url("/fonts/CAT DyFa.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Rogerex";
+	src: url("/fonts/Rogerex.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Gemsbuck";
+	src: url("/fonts/Gemsbuck.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Omotenashi";
+	src: url("/fonts/Omotenashi.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Linerama";
+	src: url("/fonts/Linerama.ttf") format("truetype");
+}
+@font-face {
+	font-family: "RO BlueShell";
+	src: url("/fonts/RO BlueShell.otf") format("opentype");
+}
+@font-face {
+	font-family: "Pasti";
+	src: url("/fonts/Pasti.otf") format("opentype");
+}
+@font-face {
+	font-family: "vinque";
+	src: url("/fonts/vinque.otf") format("opentype");
+}
+@font-face {
+	font-family: "Euripides";
+	src: url("/fonts/Euripides.otf") format("opentype");
+}
+@font-face {
+	font-family: "Migha";
+	src: url("/fonts/Migha.otf") format("opentype");
+}
+@font-face {
+	font-family: "BackOut";
+	src: url("/fonts/BackOut.otf") format("opentype");
+}
+@font-face {
+	font-family: "Natural Mono";
+	src: url("/fonts/Natural Mono.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Hangul";
+	src: url("/fonts/Hangul.otf") format("opentype");
+}
+@font-face {
+	font-family: "Dauphine Regular";
+	src: url("/fonts/Dauphine Regular.otf") format("opentype");
+}
+@font-face {
+	font-family: "AkhirTahun";
+	src: url("/fonts/AkhirTahun.otf") format("opentype");
+}
+@font-face {
+	font-family: "Buyan";
+	src: url("/fonts/Buyan.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Krona One";
+	src: url("/fonts/Krona One.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Lowball";
+	src: url("/fonts/Lowball.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Mourier";
+	src: url("/fonts/Mourier.otf") format("opentype");
+}
+@font-face {
+	font-family: "Share Tech Mono";
+	src: url("/fonts/Share Tech Mono.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Pixgamer";
+	src: url("/fonts/Pixgamer.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Skyhook";
+	src: url("/fonts/Skyhook.otf") format("opentype");
+}
+@font-face {
+	font-family: "Anggaran Dasar";
+	src: url("/fonts/Anggaran Dasar.otf") format("opentype");
+}
+@font-face {
+	font-family: "Volunmo";
+	src: url("/fonts/Volunmo.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Stor";
+	src: url("/fonts/Stor.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Tulpen One";
+	src: url("/fonts/Tulpen One.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Green Tea Jelly";
+	src: url("/fonts/Green Tea Jelly.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Format 1452";
+	src: url("/fonts/Format 1452.otf") format("opentype");
+}
+@font-face {
+	font-family: "Cohaerentia";
+	src: url("/fonts/Cohaerentia.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Drexs";
+	src: url("/fonts/Drexs.otf") format("opentype");
+}
+@font-face {
+	font-family: "ZT Gatha";
+	src: url("/fonts/ZT Gatha.otf") format("opentype");
+}
+@font-face {
+	font-family: "Bainsley";
+	src: url("/fonts/Bainsley.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Arena Graffiti";
+	src: url("/fonts/Arena Graffiti.otf") format("opentype");
+}
+@font-face {
+	font-family: "RO Spritendo";
+	src: url("/fonts/RO Spritendo.otf") format("opentype");
+}
+@font-face {
+	font-family: "BalgrufItalic";
+	src: url("/fonts/BalgrufItalic.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Sansalvi";
+	src: url("/fonts/Sansalvi.otf") format("opentype");
+}
+@font-face {
+	font-family: "BrandinkSans";
+	src: url("/fonts/BrandinkSans.otf") format("opentype");
+}
+@font-face {
+	font-family: "Happy Times at the IKOB";
+	src: url("/fonts/Happy Times at the IKOB.otf") format("opentype");
+}
+@font-face {
+	font-family: "Lusitana";
+	src: url("/fonts/Lusitana.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Redaction";
+	src: url("/fonts/Redaction.otf") format("opentype");
+}
+@font-face {
+	font-family: "Almendra";
+	src: url("/fonts/Almendra.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Alice In Wonderland";
+	src: url("/fonts/Alice In Wonderland.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Olde English";
+	src: url("/fonts/Olde English.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Munson Roman";
+	src: url("/fonts/Munson Roman.otf") format("opentype");
+}
+@font-face {
+	font-family: "DO David Gothic";
+	src: url("/fonts/DO David Gothic.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Futuristic";
+	src: url("/fonts/Futuristic.ttf") format("truetype");
+}
+@font-face {
+	font-family: "CehuaFree";
+	src: url("/fonts/CehuaFree.otf") format("opentype");
+}
+@font-face {
+	font-family: "Lineal";
+	src: url("/fonts/Lineal.otf") format("opentype");
+}
+@font-face {
+	font-family: "Resotho";
+	src: url("/fonts/Resotho.otf") format("opentype");
+}
+@font-face {
+	font-family: "Horse Pro";
+	src: url("/fonts/Horse Pro.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Oliciy";
+	src: url("/fonts/Oliciy.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Kuhlenbach";
+	src: url("/fonts/Kuhlenbach.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Jesa Script";
+	src: url("/fonts/Jesa Script.otf") format("opentype");
+}
+@font-face {
+	font-family: "Oldtimer";
+	src: url("/fonts/Oldtimer.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Awal Ramadhan";
+	src: url("/fonts/Awal Ramadhan.otf") format("opentype");
+}
+@font-face {
+	font-family: "Capriola";
+	src: url("/fonts/Capriola.ttf") format("truetype");
+}
+@font-face {
+	font-family: "AlphaProta";
+	src: url("/fonts/AlphaProta.ttf") format("truetype");
+}
+@font-face {
+	font-family: "SemiSweet";
+	src: url("/fonts/SemiSweet.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Salma Pro";
+	src: url("/fonts/Salma Pro.otf") format("opentype");
+}
+@font-face {
+	font-family: "Selawik";
+	src: url("/fonts/Selawik.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Raylig";
+	src: url("/fonts/Raylig.ttf") format("truetype");
+}
+@font-face {
+	font-family: "CAT Altenglisch";
+	src: url("/fonts/CAT Altenglisch.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Understock";
+	src: url("/fonts/Understock.otf") format("opentype");
+}
+@font-face {
+	font-family: "Cadman";
+	src: url("/fonts/Cadman.ttf") format("truetype");
+}
+@font-face {
+	font-family: "ZT Mota";
+	src: url("/fonts/ZT Mota.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Mister Firley";
+	src: url("/fonts/Mister Firley.otf") format("opentype");
+}
+@font-face {
+	font-family: "Blocus";
+	src: url("/fonts/Blocus.otf") format("opentype");
+}
+@font-face {
+	font-family: "Runic Sans";
+	src: url("/fonts/Runic Sans.otf") format("opentype");
+}
+@font-face {
+	font-family: "Lowball Neue";
+	src: url("/fonts/Lowball Neue.ttf") format("truetype");
+}
+@font-face {
+	font-family: "E 1234";
+	src: url("/fonts/E 1234.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Rondal";
+	src: url("/fonts/Rondal.otf") format("opentype");
+}
+@font-face {
+	font-family: "Marvel";
+	src: url("/fonts/Marvel.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Mister Pixel Tools";
+	src: url("/fonts/Mister Pixel Tools.otf") format("opentype");
+}
+@font-face {
+	font-family: "Typey";
+	src: url("/fonts/Typey.otf") format("opentype");
+}
+@font-face {
+	font-family: "Trapper John";
+	src: url("/fonts/Trapper John.otf") format("opentype");
+}
+@font-face {
+	font-family: "Almendra Display";
+	src: url("/fonts/Almendra Display.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Wim Crouwel68";
+	src: url("/fonts/Wim Crouwel68.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Almendra Bold";
+	src: url("/fonts/Almendra Bold.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Superglue";
+	src: url("/fonts/Superglue.otf") format("opentype");
+}
+@font-face {
+	font-family: "Aurebesh BloopsAF";
+	src: url("/fonts/Aurebesh BloopsAF.otf") format("opentype");
+}
+@font-face {
+	font-family: "Kleymisska";
+	src: url("/fonts/Kleymisska.otf") format("opentype");
+}
+@font-face {
+	font-family: "Literata";
+	src: url("/fonts/Literata.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Kelvinch";
+	src: url("/fonts/Kelvinch.otf") format("opentype");
+}
+@font-face {
+	font-family: "Anterobot";
+	src: url("/fonts/Anterobot.otf") format("opentype");
+}
+@font-face {
+	font-family: "Trickster";
+	src: url("/fonts/Trickster.otf") format("opentype");
+}
+@font-face {
+	font-family: "Ductape To";
+	src: url("/fonts/Ductape To.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Yatra One";
+	src: url("/fonts/Yatra One.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Montaga";
+	src: url("/fonts/Montaga.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Sith AF";
+	src: url("/fonts/Sith AF.otf") format("opentype");
+}
+@font-face {
+	font-family: "Vanilla Extract";
+	src: url("/fonts/Vanilla Extract.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Ipsum Semi";
+	src: url("/fonts/Ipsum Semi.otf") format("opentype");
+}
+@font-face {
+	font-family: "Lexend";
+	src: url("/fonts/Lexend.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Novem";
+	src: url("/fonts/Novem.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Mono";
+	src: url("/fonts/Mono.otf") format("opentype");
+}
+@font-face {
+	font-family: "Port Credit";
+	src: url("/fonts/Port Credit.otf") format("opentype");
+}
+@font-face {
+	font-family: "Game Of Squids";
+	src: url("/fonts/Game Of Squids.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Vuldo";
+	src: url("/fonts/Vuldo.otf") format("opentype");
+}
+@font-face {
+	font-family: "Dream Orphans";
+	src: url("/fonts/Dream Orphans.otf") format("opentype");
+}
+@font-face {
+	font-family: "Send Cash";
+	src: url("/fonts/Send Cash.otf") format("opentype");
+}
+@font-face {
+	font-family: "Wavetosh";
+	src: url("/fonts/Wavetosh.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Crucial Medium";
+	src: url("/fonts/Crucial Medium.otf") format("opentype");
+}
+@font-face {
+	font-family: "Hendershot";
+	src: url("/fonts/Hendershot.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Combine";
+	src: url("/fonts/Combine.otf") format("opentype");
+}
+@font-face {
+	font-family: "Daniel Jaques";
+	src: url("/fonts/Daniel Jaques.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Capsule";
+	src: url("/fonts/Capsule.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Simvoni";
+	src: url("/fonts/Simvoni.otf") format("opentype");
+}
+@font-face {
+	font-family: "Milkalte";
+	src: url("/fonts/Milkalte.otf") format("opentype");
+}
+@font-face {
+	font-family: "Cano";
+	src: url("/fonts/Cano.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Nugo Sans";
+	src: url("/fonts/Nugo Sans.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Omni Masthead";
+	src: url("/fonts/Omni Masthead.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Sikat";
+	src: url("/fonts/Sikat.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Millennia";
+	src: url("/fonts/Millennia.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Mono";
+	src: url("/fonts/Mono.ttf") format("truetype");
+}
+@font-face {
+	font-family: "LT Carpet";
+	src: url("/fonts/LT Carpet.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Aurebesh RacerAF";
+	src: url("/fonts/Aurebesh RacerAF.otf") format("opentype");
+}
+@font-face {
+	font-family: "Edge Of The Galaxy";
+	src: url("/fonts/Edge Of The Galaxy.otf") format("opentype");
+}
+@font-face {
+	font-family: "FjordOne";
+	src: url("/fonts/FjordOne.otf") format("opentype");
+}
+@font-face {
+	font-family: "RC Rocket";
+	src: url("/fonts/RC Rocket.otf") format("opentype");
+}
+@font-face {
+	font-family: "Tiresias PC";
+	src: url("/fonts/Tiresias PC.ttf") format("truetype");
+}
+@font-face {
+	font-family: "ZZYZX";
+	src: url("/fonts/ZZYZX.ttf") format("truetype");
+}
+@font-face {
+	font-family: "LeagueGothic";
+	src: url("/fonts/LeagueGothic.otf") format("opentype");
+}
+@font-face {
+	font-family: "JuliaMono";
+	src: url("/fonts/JuliaMono.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Abhaya Libre";
+	src: url("/fonts/Abhaya Libre.ttf") format("truetype");
+}
+@font-face {
+	font-family: "RO Twimch";
+	src: url("/fonts/RO Twimch.ttf") format("truetype");
+}
+@font-face {
+	font-family: "DO David Gothic Two";
+	src: url("/fonts/DO David Gothic Two.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Jupiteroid";
+	src: url("/fonts/Jupiteroid.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Aerial Banner";
+	src: url("/fonts/Aerial Banner.ttf") format("truetype");
+}
+@font-face {
+	font-family: "No Clocks";
+	src: url("/fonts/No Clocks.otf") format("opentype");
+}
+@font-face {
+	font-family: "Tamuragaki";
+	src: url("/fonts/Tamuragaki.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Andala";
+	src: url("/fonts/Andala.otf") format("opentype");
+}
+@font-face {
+	font-family: "Playfair Display";
+	src: url("/fonts/Playfair Display.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Golden Girdle";
+	src: url("/fonts/Golden Girdle.otf") format("opentype");
+}
+@font-face {
+	font-family: "MicroSix";
+	src: url("/fonts/MicroSix.ttf") format("truetype");
+}
+@font-face {
+	font-family: "CantataOne";
+	src: url("/fonts/CantataOne.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Majanan";
+	src: url("/fonts/Majanan.otf") format("opentype");
+}
+@font-face {
+	font-family: "Loja";
+	src: url("/fonts/Loja.otf") format("opentype");
+}
+@font-face {
+	font-family: "Asul";
+	src: url("/fonts/Asul.ttf") format("truetype");
+}
+@font-face {
+	font-family: "ArbutusSlab";
+	src: url("/fonts/ArbutusSlab.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Wonome";
+	src: url("/fonts/Wonome.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Gihun";
+	src: url("/fonts/Gihun.otf") format("opentype");
+}
+@font-face {
+	font-family: "KottaOne";
+	src: url("/fonts/KottaOne.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Glitchcrafty";
+	src: url("/fonts/Glitchcrafty.ttf") format("truetype");
+}
+@font-face {
+	font-family: "TwistTwist";
+	src: url("/fonts/TwistTwist.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Pixeloid Sans";
+	src: url("/fonts/Pixeloid Sans.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Pixeloid Mono";
+	src: url("/fonts/Pixeloid Mono.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Keania One";
+	src: url("/fonts/Keania One.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Quantum Flat";
+	src: url("/fonts/Quantum Flat.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Mister Pixel";
+	src: url("/fonts/Mister Pixel.otf") format("opentype");
+}
+@font-face {
+	font-family: "CAT Transit";
+	src: url("/fonts/CAT Transit.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Morning Wasabi";
+	src: url("/fonts/Morning Wasabi.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Angelika Playfull";
+	src: url("/fonts/Angelika Playfull.otf") format("opentype");
+}
+@font-face {
+	font-family: "Faulmann Fraktur";
+	src: url("/fonts/Faulmann Fraktur.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Lment";
+	src: url("/fonts/Lment.otf") format("opentype");
+}
+@font-face {
+	font-family: "Tokeely Brookings";
+	src: url("/fonts/Tokeely Brookings.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Mazius Display";
+	src: url("/fonts/Mazius Display.otf") format("opentype");
+}
+@font-face {
+	font-family: "Almendra Two";
+	src: url("/fonts/Almendra Two.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Gemunu Libre";
+	src: url("/fonts/Gemunu Libre.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Fin Serif Display";
+	src: url("/fonts/Fin Serif Display.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Kastore";
+	src: url("/fonts/Kastore.otf") format("opentype");
+}
+@font-face {
+	font-family: "Ztretzok";
+	src: url("/fonts/Ztretzok.otf") format("opentype");
+}
+@font-face {
+	font-family: "Ampleser";
+	src: url("/fonts/Ampleser.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Space Mono";
+	src: url("/fonts/Space Mono.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Old Town";
+	src: url("/fonts/Old Town.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Oddval";
+	src: url("/fonts/Oddval.otf") format("opentype");
+}
+@font-face {
+	font-family: "Fengardo Neue";
+	src: url("/fonts/Fengardo Neue.otf") format("opentype");
+}
+@font-face {
+	font-family: "Not Courier Sans";
+	src: url("/fonts/Not Courier Sans.otf") format("opentype");
+}
+@font-face {
+	font-family: "DM Mono";
+	src: url("/fonts/DM Mono.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Robokoz";
+	src: url("/fonts/Robokoz.otf") format("opentype");
+}
+@font-face {
+	font-family: "Delight";
+	src: url("/fonts/Delight.otf") format("opentype");
+}
+@font-face {
+	font-family: "Old English Gothic Pixel";
+	src: url("/fonts/Old English Gothic Pixel.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Balgruf";
+	src: url("/fonts/Balgruf.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Cramaten";
+	src: url("/fonts/Cramaten.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Boeticher";
+	src: url("/fonts/Boeticher.otf") format("opentype");
+}
+@font-face {
+	font-family: "Sprat";
+	src: url("/fonts/Sprat.otf") format("opentype");
+}
+@font-face {
+	font-family: "Standard Galactic Alphabet";
+	src: url("/fonts/Standard Galactic Alphabet.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Wigners Friend";
+	src: url("/fonts/Wigners Friend.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Warriot";
+	src: url("/fonts/Warriot.otf") format("opentype");
+}
+@font-face {
+	font-family: "Ignotum";
+	src: url("/fonts/Ignotum.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Texaz";
+	src: url("/fonts/Texaz.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Delius";
+	src: url("/fonts/Delius.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Colatemta";
+	src: url("/fonts/Colatemta.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Bolkit Rayek";
+	src: url("/fonts/Bolkit Rayek.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Cangkriman";
+	src: url("/fonts/Cangkriman.otf") format("opentype");
+}
+@font-face {
+	font-family: "Switching & Effects";
+	src: url("/fonts/Switching & Effects.otf") format("opentype");
+}
+@font-face {
+	font-family: "Fortzilla";
+	src: url("/fonts/Fortzilla.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Colombia";
+	src: url("/fonts/Colombia.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Vollkorn";
+	src: url("/fonts/Vollkorn.otf") format("opentype");
+}
+@font-face {
+	font-family: "Twilight Newmoon";
+	src: url("/fonts/Twilight Newmoon.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Skrybylr";
+	src: url("/fonts/Skrybylr.otf") format("opentype");
+}
+@font-face {
+	font-family: "Jackwrite";
+	src: url("/fonts/Jackwrite.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Gecade";
+	src: url("/fonts/Gecade.otf") format("opentype");
+}
+@font-face {
+	font-family: "MB Kaos";
+	src: url("/fonts/MB Kaos.ttf") format("truetype");
+}
+@font-face {
+	font-family: "LT Highlight";
+	src: url("/fonts/LT Highlight.otf") format("opentype");
+}
+@font-face {
+	font-family: "Gulax";
+	src: url("/fonts/Gulax.otf") format("opentype");
+}
+@font-face {
+	font-family: "Arrancar";
+	src: url("/fonts/Arrancar.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Codygoon";
+	src: url("/fonts/Codygoon.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Terminal Grotesque";
+	src: url("/fonts/Terminal Grotesque.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Slang Outfit";
+	src: url("/fonts/Slang Outfit.otf") format("opentype");
+}
+@font-face {
+	font-family: "New Years Party";
+	src: url("/fonts/New Years Party.ttf") format("truetype");
+}
+@font-face {
+	font-family: "League Spartan";
+	src: url("/fonts/League Spartan.otf") format("opentype");
+}
+@font-face {
+	font-family: "Kalmansk";
+	src: url("/fonts/Kalmansk.otf") format("opentype");
+}
+@font-face {
+	font-family: "Courrrier";
+	src: url("/fonts/Courrrier.otf") format("opentype");
+}
+@font-face {
+	font-family: "AngloText";
+	src: url("/fonts/AngloText.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Coconat";
+	src: url("/fonts/Coconat.otf") format("opentype");
+}
+@font-face {
+	font-family: "Lambda";
+	src: url("/fonts/Lambda.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Abril Fatface";
+	src: url("/fonts/Abril Fatface.ttf") format("truetype");
+}
