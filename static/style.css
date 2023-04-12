@@ -663,10 +663,6 @@
 	src: url("../fonts/Mazius Display.otf") format("opentype");
 }
 @font-face {
-	font-family: "Almendra Two";
-	src: url("../fonts/Almendra Two.ttf") format("truetype");
-}
-@font-face {
 	font-family: "Gemunu Libre";
 	src: url("../fonts/Gemunu Libre.ttf") format("truetype");
 }
