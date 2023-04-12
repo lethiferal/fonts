@@ -339,10 +339,6 @@
 	src: url("../fonts/Trapper John.otf") format("opentype");
 }
 @font-face {
-	font-family: "Almendra Display";
-	src: url("../fonts/Almendra Display.ttf") format("truetype");
-}
-@font-face {
 	font-family: "Wim Crouwel68";
 	src: url("../fonts/Wim Crouwel68.ttf") format("truetype");
 }
