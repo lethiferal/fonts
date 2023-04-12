@@ -347,10 +347,6 @@
 	src: url("../fonts/Wim Crouwel68.ttf") format("truetype");
 }
 @font-face {
-	font-family: "Almendra Bold";
-	src: url("../fonts/Almendra Bold.ttf") format("truetype");
-}
-@font-face {
 	font-family: "Superglue";
 	src: url("../fonts/Superglue.otf") format("opentype");
 }
