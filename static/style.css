@@ -31,6 +31,10 @@
 	src: url("../fonts/LM mono.otf") format("opentype");
 }
 @font-face {
+	font-family: "Sporting Grotesque";
+	src: url("../fonts/Sporting Grotesque.otf") format("opentype");
+}
+@font-face {
 	font-family: "Treeroot";
 	src: url("../fonts/Treeroot.otf") format("opentype");
 }
@@ -817,6 +821,10 @@
 @font-face {
 	font-family: "Codygoon";
 	src: url("../fonts/Codygoon.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Chromate";
+	src: url("../fonts/Chromate.otf") format("opentype");
 }
 @font-face {
 	font-family: "Terminal Grotesque";
